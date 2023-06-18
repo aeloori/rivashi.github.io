@@ -238,43 +238,41 @@ body
 }
 
 /* footer */
-
-#pageEnd
+#footerList
 {
-    height: 400px;
-    width: 100%;
     background-color: #121212;
     border-radius: 25px 25px 0px 0px;
+    padding: 40px 200px 10px 40px;
+    color: #F1F1F1;
+    text-decoration: none;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-#list1
+#list1L
 {
-    /* margin-top: 100px; */
-    color:#F1F1F1;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 #list1L li
-{   text-decoration: none;
-    list-style-type: none;
-    margin: 20px;
-}
-
-#list2
 {
-    color: #F1F1F1;
-    text-decoration: none;
+    margin: 5px;
 }
 
 #list2L
 {
-    list-style-type:none;
+    list-style-type: none;
 }
 
-#logoAtEnd
+#list2L li
 {
-    color: #F1F1F1;
+    margin: 5px;
+}
+
+#listthree
+{
+    display: flex;
+    align-items: center;
 }
